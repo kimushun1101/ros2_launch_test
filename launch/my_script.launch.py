@@ -15,7 +15,7 @@ test_launch_file_dir = os.path.join(get_package_share_directory('test_pkg'), 'la
 def generate_launch_description():
     return launch.LaunchDescription([
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([nav2_launch_file_dir, '/roomba_600_driver.launch.py']),
+            PythonLaunchDescriptionSource([roomba_launch_file_dir, '/roomba_600_driver.launch.py']),
         ),
         Node(
             package='usb_camera_driver', node_executable='usb_camera_driver_node', output='screen'),
