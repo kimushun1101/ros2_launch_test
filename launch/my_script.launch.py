@@ -33,7 +33,7 @@ def generate_launch_description():
                 'joy_dev': '/dev/input/js0'}.items(),
         ),
         # IncludeLaunchDescription(
-        #     PythonLaunchDescriptionSource([cbf_launch_file_dir, '/controller_with_teleop_twist_joy_launch.py']),
+        #     PythonLaunchDescriptionSource([cbf_launch_file_dir, '/controller_with_teleop_twist_joy.launch.py']),
         #     launch_arguments={
         #         'joy_dev': '/dev/input/js0'}.items(),
         # ),
